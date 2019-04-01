@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18E74C932244777F00D1EB74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E74C922244777F00D1EB74 /* AppDelegate.m */; };
+		18E74C962244777F00D1EB74 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E74C952244777F00D1EB74 /* ViewController.m */; };
+		18E74C992244777F00D1EB74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E74C972244777F00D1EB74 /* Main.storyboard */; };
+		18E74C9B2244778100D1EB74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E74C9A2244778100D1EB74 /* Assets.xcassets */; };
+		18E74C9E2244778100D1EB74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E74C9C2244778100D1EB74 /* LaunchScreen.storyboard */; };
+		18E74CA12244778100D1EB74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E74CA02244778100D1EB74 /* main.m */; };
+		18E74CAB2244778100D1EB74 /* ThreedStudyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E74CAA2244778100D1EB74 /* ThreedStudyTests.m */; };
+		18E74CB62244778100D1EB74 /* ThreedStudyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E74CB52244778100D1EB74 /* ThreedStudyUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18E74CA72244778100D1EB74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18E74C862244777F00D1EB74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18E74C8D2244777F00D1EB74;
+			remoteInfo = ThreedStudy;
+		};
+		18E74CB22244778100D1EB74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18E74C862244777F00D1EB74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18E74C8D2244777F00D1EB74;
+			remoteInfo = ThreedStudy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18E74C8E2244777F00D1EB74 /* ThreedStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreedStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E74C912244777F00D1EB74 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18E74C922244777F00D1EB74 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18E74C942244777F00D1EB74 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18E74C952244777F00D1EB74 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18E74C982244777F00D1EB74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18E74C9A2244778100D1EB74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18E74C9D2244778100D1EB74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18E74C9F2244778100D1EB74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E74CA02244778100D1EB74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18E74CA62244778100D1EB74 /* ThreedStudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreedStudyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E74CAA2244778100D1EB74 /* ThreedStudyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreedStudyTests.m; sourceTree = "<group>"; };
+		18E74CAC2244778100D1EB74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E74CB12244778100D1EB74 /* ThreedStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreedStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E74CB52244778100D1EB74 /* ThreedStudyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreedStudyUITests.m; sourceTree = "<group>"; };
+		18E74CB72244778100D1EB74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18E74C8B2244777F00D1EB74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E74CA32244778100D1EB74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E74CAE2244778100D1EB74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18E74C852244777F00D1EB74 = {
+			isa = PBXGroup;
+			children = (
+				18E74C902244777F00D1EB74 /* ThreedStudy */,
+				18E74CA92244778100D1EB74 /* ThreedStudyTests */,
+				18E74CB42244778100D1EB74 /* ThreedStudyUITests */,
+				18E74C8F2244777F00D1EB74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18E74C8F2244777F00D1EB74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18E74C8E2244777F00D1EB74 /* ThreedStudy.app */,
+				18E74CA62244778100D1EB74 /* ThreedStudyTests.xctest */,
+				18E74CB12244778100D1EB74 /* ThreedStudyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18E74C902244777F00D1EB74 /* ThreedStudy */ = {
+			isa = PBXGroup;
+			children = (
+				18E74C912244777F00D1EB74 /* AppDelegate.h */,
+				18E74C922244777F00D1EB74 /* AppDelegate.m */,
+				18E74C942244777F00D1EB74 /* ViewController.h */,
+				18E74C952244777F00D1EB74 /* ViewController.m */,
+				18E74C972244777F00D1EB74 /* Main.storyboard */,
+				18E74C9A2244778100D1EB74 /* Assets.xcassets */,
+				18E74C9C2244778100D1EB74 /* LaunchScreen.storyboard */,
+				18E74C9F2244778100D1EB74 /* Info.plist */,
+				18E74CA02244778100D1EB74 /* main.m */,
+			);
+			path = ThreedStudy;
+			sourceTree = "<group>";
+		};
+		18E74CA92244778100D1EB74 /* ThreedStudyTests */ = {
+			isa = PBXGroup;
+			children = (
+				18E74CAA2244778100D1EB74 /* ThreedStudyTests.m */,
+				18E74CAC2244778100D1EB74 /* Info.plist */,
+			);
+			path = ThreedStudyTests;
+			sourceTree = "<group>";
+		};
+		18E74CB42244778100D1EB74 /* ThreedStudyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18E74CB52244778100D1EB74 /* ThreedStudyUITests.m */,
+				18E74CB72244778100D1EB74 /* Info.plist */,
+			);
+			path = ThreedStudyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18E74C8D2244777F00D1EB74 /* ThreedStudy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E74CBA2244778100D1EB74 /* Build configuration list for PBXNativeTarget "ThreedStudy" */;
+			buildPhases = (
+				18E74C8A2244777F00D1EB74 /* Sources */,
+				18E74C8B2244777F00D1EB74 /* Frameworks */,
+				18E74C8C2244777F00D1EB74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThreedStudy;
+			productName = ThreedStudy;
+			productReference = 18E74C8E2244777F00D1EB74 /* ThreedStudy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18E74CA52244778100D1EB74 /* ThreedStudyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E74CBD2244778100D1EB74 /* Build configuration list for PBXNativeTarget "ThreedStudyTests" */;
+			buildPhases = (
+				18E74CA22244778100D1EB74 /* Sources */,
+				18E74CA32244778100D1EB74 /* Frameworks */,
+				18E74CA42244778100D1EB74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18E74CA82244778100D1EB74 /* PBXTargetDependency */,
+			);
+			name = ThreedStudyTests;
+			productName = ThreedStudyTests;
+			productReference = 18E74CA62244778100D1EB74 /* ThreedStudyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18E74CB02244778100D1EB74 /* ThreedStudyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E74CC02244778100D1EB74 /* Build configuration list for PBXNativeTarget "ThreedStudyUITests" */;
+			buildPhases = (
+				18E74CAD2244778100D1EB74 /* Sources */,
+				18E74CAE2244778100D1EB74 /* Frameworks */,
+				18E74CAF2244778100D1EB74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18E74CB32244778100D1EB74 /* PBXTargetDependency */,
+			);
+			name = ThreedStudyUITests;
+			productName = ThreedStudyUITests;
+			productReference = 18E74CB12244778100D1EB74 /* ThreedStudyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18E74C862244777F00D1EB74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					18E74C8D2244777F00D1EB74 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					18E74CA52244778100D1EB74 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 18E74C8D2244777F00D1EB74;
+					};
+					18E74CB02244778100D1EB74 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 18E74C8D2244777F00D1EB74;
+					};
+				};
+			};
+			buildConfigurationList = 18E74C892244777F00D1EB74 /* Build configuration list for PBXProject "ThreedStudy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18E74C852244777F00D1EB74;
+			productRefGroup = 18E74C8F2244777F00D1EB74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18E74C8D2244777F00D1EB74 /* ThreedStudy */,
+				18E74CA52244778100D1EB74 /* ThreedStudyTests */,
+				18E74CB02244778100D1EB74 /* ThreedStudyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18E74C8C2244777F00D1EB74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E74C9E2244778100D1EB74 /* LaunchScreen.storyboard in Resources */,
+				18E74C9B2244778100D1EB74 /* Assets.xcassets in Resources */,
+				18E74C992244777F00D1EB74 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E74CA42244778100D1EB74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E74CAF2244778100D1EB74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18E74C8A2244777F00D1EB74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E74C962244777F00D1EB74 /* ViewController.m in Sources */,
+				18E74CA12244778100D1EB74 /* main.m in Sources */,
+				18E74C932244777F00D1EB74 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E74CA22244778100D1EB74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E74CAB2244778100D1EB74 /* ThreedStudyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E74CAD2244778100D1EB74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E74CB62244778100D1EB74 /* ThreedStudyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18E74CA82244778100D1EB74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18E74C8D2244777F00D1EB74 /* ThreedStudy */;
+			targetProxy = 18E74CA72244778100D1EB74 /* PBXContainerItemProxy */;
+		};
+		18E74CB32244778100D1EB74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18E74C8D2244777F00D1EB74 /* ThreedStudy */;
+			targetProxy = 18E74CB22244778100D1EB74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18E74C972244777F00D1EB74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E74C982244777F00D1EB74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18E74C9C2244778100D1EB74 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E74C9D2244778100D1EB74 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18E74CB82244778100D1EB74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18E74CB92244778100D1EB74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18E74CBB2244778100D1EB74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ThreedStudy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xfq.ThreedStudy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18E74CBC2244778100D1EB74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ThreedStudy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xfq.ThreedStudy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18E74CBE2244778100D1EB74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ThreedStudyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xfq.ThreedStudyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThreedStudy.app/ThreedStudy";
+			};
+			name = Debug;
+		};
+		18E74CBF2244778100D1EB74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ThreedStudyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xfq.ThreedStudyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThreedStudy.app/ThreedStudy";
+			};
+			name = Release;
+		};
+		18E74CC12244778100D1EB74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ThreedStudyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xfq.ThreedStudyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThreedStudy;
+			};
+			name = Debug;
+		};
+		18E74CC22244778100D1EB74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ThreedStudyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xfq.ThreedStudyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThreedStudy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18E74C892244777F00D1EB74 /* Build configuration list for PBXProject "ThreedStudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E74CB82244778100D1EB74 /* Debug */,
+				18E74CB92244778100D1EB74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E74CBA2244778100D1EB74 /* Build configuration list for PBXNativeTarget "ThreedStudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E74CBB2244778100D1EB74 /* Debug */,
+				18E74CBC2244778100D1EB74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E74CBD2244778100D1EB74 /* Build configuration list for PBXNativeTarget "ThreedStudyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E74CBE2244778100D1EB74 /* Debug */,
+				18E74CBF2244778100D1EB74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E74CC02244778100D1EB74 /* Build configuration list for PBXNativeTarget "ThreedStudyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E74CC12244778100D1EB74 /* Debug */,
+				18E74CC22244778100D1EB74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18E74C862244777F00D1EB74 /* Project object */;
+}
