@@ -15,6 +15,7 @@
 		186238692252350700E3489F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 186238682252350700E3489F /* main.m */; };
 		186238732252350700E3489F /* LabelCountTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 186238722252350700E3489F /* LabelCountTests.m */; };
 		1862387E2252350700E3489F /* LabelCountUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1862387D2252350700E3489F /* LabelCountUITests.m */; };
+		1862388D22523F0600E3489F /* UILabel+LineCountAndContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1862388C22523F0600E3489F /* UILabel+LineCountAndContent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		186238792252350700E3489F /* LabelCountUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LabelCountUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1862387D2252350700E3489F /* LabelCountUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LabelCountUITests.m; sourceTree = "<group>"; };
 		1862387F2252350700E3489F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1862388B22523F0600E3489F /* UILabel+LineCountAndContent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+LineCountAndContent.h"; sourceTree = "<group>"; };
+		1862388C22523F0600E3489F /* UILabel+LineCountAndContent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LineCountAndContent.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				1862385A2252350500E3489F /* AppDelegate.m */,
 				1862385C2252350500E3489F /* ViewController.h */,
 				1862385D2252350500E3489F /* ViewController.m */,
+				1862388B22523F0600E3489F /* UILabel+LineCountAndContent.h */,
+				1862388C22523F0600E3489F /* UILabel+LineCountAndContent.m */,
 				1862385F2252350500E3489F /* Main.storyboard */,
 				186238622252350700E3489F /* Assets.xcassets */,
 				186238642252350700E3489F /* LaunchScreen.storyboard */,
@@ -262,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1862388D22523F0600E3489F /* UILabel+LineCountAndContent.m in Sources */,
 				1862385E2252350500E3489F /* ViewController.m in Sources */,
 				186238692252350700E3489F /* main.m in Sources */,
 				1862385B2252350500E3489F /* AppDelegate.m in Sources */,
