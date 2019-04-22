@@ -31,11 +31,13 @@ NSString *globalStr = @"全局变量";
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    NSObject *objjjjjjj = [NSObject new];
     
+    __weak NSObject *obj2222222 = objjjjjjj;
     
-    ^{ printf("Hello, World!\n"); };
-    _arrr = [[NSMutableArray alloc] init];
-    ();
+//    ^{ printf("Hello, World!\n"); };
+//    _arrr = [[NSMutableArray alloc] init];
+//    ();
     
 //
 //    void (^stackBlock)(NSString *str) = ^(NSString *str) {
