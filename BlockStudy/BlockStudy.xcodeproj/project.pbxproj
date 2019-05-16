@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18001574228C17E5008FBF0A /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18001573228C17E5008FBF0A /* AViewController.m */; };
-		18001577228C194A008FBF0A /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18001576228C194A008FBF0A /* TestView.m */; };
+		18C78E46228D08400005E391 /* WQBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C78E45228D08400005E391 /* WQBaseController.m */; };
+		18C78E49228D093E0005E391 /* CloserBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C78E48228D093E0005E391 /* CloserBlock.m */; };
+		18C78E4C228D0E520005E391 /* WQCloserStaticFunctionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C78E4B228D0E520005E391 /* WQCloserStaticFunctionController.m */; };
+		18C78E4F228D466F0005E391 /* WQGCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C78E4E228D466F0005E391 /* WQGCDViewController.m */; };
 		F76A5EF0224139FF00DF95B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F76A5EEF224139FF00DF95B5 /* AppDelegate.m */; };
-		F76A5EF3224139FF00DF95B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76A5EF2224139FF00DF95B5 /* ViewController.m */; };
 		F76A5EF6224139FF00DF95B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76A5EF4224139FF00DF95B5 /* Main.storyboard */; };
 		F76A5EF8224139FF00DF95B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F76A5EF7224139FF00DF95B5 /* Assets.xcassets */; };
 		F76A5EFB224139FF00DF95B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76A5EF9224139FF00DF95B5 /* LaunchScreen.storyboard */; };
@@ -38,15 +39,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		18001572228C17E5008FBF0A /* AViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
-		18001573228C17E5008FBF0A /* AViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
-		18001575228C194A008FBF0A /* TestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
-		18001576228C194A008FBF0A /* TestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
+		18C78E44228D08400005E391 /* WQBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WQBaseController.h; sourceTree = "<group>"; };
+		18C78E45228D08400005E391 /* WQBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WQBaseController.m; sourceTree = "<group>"; };
+		18C78E47228D093E0005E391 /* CloserBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CloserBlock.h; sourceTree = "<group>"; };
+		18C78E48228D093E0005E391 /* CloserBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloserBlock.m; sourceTree = "<group>"; };
+		18C78E4A228D0E520005E391 /* WQCloserStaticFunctionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WQCloserStaticFunctionController.h; sourceTree = "<group>"; };
+		18C78E4B228D0E520005E391 /* WQCloserStaticFunctionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WQCloserStaticFunctionController.m; sourceTree = "<group>"; };
+		18C78E4D228D466F0005E391 /* WQGCDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WQGCDViewController.h; sourceTree = "<group>"; };
+		18C78E4E228D466F0005E391 /* WQGCDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WQGCDViewController.m; sourceTree = "<group>"; };
 		F76A5EEB224139FF00DF95B5 /* BlockStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F76A5EEE224139FF00DF95B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F76A5EEF224139FF00DF95B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F76A5EF1224139FF00DF95B5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F76A5EF2224139FF00DF95B5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F76A5EF5224139FF00DF95B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F76A5EF7224139FF00DF95B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F76A5EFA224139FF00DF95B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -112,12 +115,14 @@
 			children = (
 				F76A5EEE224139FF00DF95B5 /* AppDelegate.h */,
 				F76A5EEF224139FF00DF95B5 /* AppDelegate.m */,
-				F76A5EF1224139FF00DF95B5 /* ViewController.h */,
-				F76A5EF2224139FF00DF95B5 /* ViewController.m */,
-				18001572228C17E5008FBF0A /* AViewController.h */,
-				18001573228C17E5008FBF0A /* AViewController.m */,
-				18001575228C194A008FBF0A /* TestView.h */,
-				18001576228C194A008FBF0A /* TestView.m */,
+				18C78E44228D08400005E391 /* WQBaseController.h */,
+				18C78E45228D08400005E391 /* WQBaseController.m */,
+				18C78E4A228D0E520005E391 /* WQCloserStaticFunctionController.h */,
+				18C78E4B228D0E520005E391 /* WQCloserStaticFunctionController.m */,
+				18C78E4D228D466F0005E391 /* WQGCDViewController.h */,
+				18C78E4E228D466F0005E391 /* WQGCDViewController.m */,
+				18C78E47228D093E0005E391 /* CloserBlock.h */,
+				18C78E48228D093E0005E391 /* CloserBlock.m */,
 				F76A5EF4224139FF00DF95B5 /* Main.storyboard */,
 				F76A5EF7224139FF00DF95B5 /* Assets.xcassets */,
 				F76A5EF9224139FF00DF95B5 /* LaunchScreen.storyboard */,
@@ -281,11 +286,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F76A5F22224153F900DF95B5 /* MMMMPeople.m in Sources */,
-				18001574228C17E5008FBF0A /* AViewController.m in Sources */,
-				F76A5EF3224139FF00DF95B5 /* ViewController.m in Sources */,
+				18C78E4C228D0E520005E391 /* WQCloserStaticFunctionController.m in Sources */,
 				F76A5EFE224139FF00DF95B5 /* main.m in Sources */,
-				18001577228C194A008FBF0A /* TestView.m in Sources */,
+				18C78E46228D08400005E391 /* WQBaseController.m in Sources */,
+				18C78E4F228D466F0005E391 /* WQGCDViewController.m in Sources */,
 				F76A5EF0224139FF00DF95B5 /* AppDelegate.m in Sources */,
+				18C78E49228D093E0005E391 /* CloserBlock.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
