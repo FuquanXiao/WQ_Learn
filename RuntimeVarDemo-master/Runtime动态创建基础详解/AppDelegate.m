@@ -30,20 +30,14 @@
         [center addNotificationRequest:request withCompletionHandler:^(NSError *_Nullable error) {
             NSLog(@"成功添加推送");
         }];
-    }
-    else{
-        
+    }else{
         UILocalNotification *localNotification = [[UILocalNotification alloc] init];
         
         localNotification.alertBody = @"aaaaaa";
         localNotification.fireDate = [NSDate dateWithTimeIntervalSinceNow:10];
 
         [[UIApplication sharedApplication] scheduleLocalNotification:localNotification];
-
-        
     }
-   
-    
 }
 
 
@@ -58,13 +52,9 @@
         [center requestAuthorizationWithOptions:(UNAuthorizationOptionAlert + UNAuthorizationOptionSound) completionHandler:^(BOOL granted, NSError * _Nullable error) {
             
         }];
-       
-        
-    }
-    else{
+    }else{
          [[UIApplication sharedApplication] registerUserNotificationSettings:[UIUserNotificationSettings settingsForTypes:UIUserNotificationTypeBadge | UIUserNotificationTypeSound | UIUserNotificationTypeAlert  categories:nil]];
     }
-    
     [[UIApplication sharedApplication] registerForRemoteNotifications];
 }
 
@@ -107,9 +97,6 @@
     completionHandler();
 }
 
-
-
-
 /**
  这个方法也不知道什么时候开始调用
  */
@@ -117,14 +104,6 @@
 - (void)userNotificationCenter:(UNUserNotificationCenter *)center openSettingsForNotification:(UNNotification *)notification API_AVAILABLE(ios(10.0)){
     
 }
-
-
-
-
-
-
-
-
 
 /**
   NS_DEPRECATED_IOS(8_0, 10_0, "Use UserNotifications Framework's -[UNUserNotificationCenterDelegate didReceiveNotificationResponse:withCompletionHandler:]")

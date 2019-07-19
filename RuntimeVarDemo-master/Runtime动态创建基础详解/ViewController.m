@@ -19,10 +19,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 //    [self creatHeroClass];
-    [self createPeopleClass];
-    UILabel*label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 300, 300)];
-    label.backgroundColor = [UIColor redColor];
-    [self.view addSubview:label];
+    
+      [self createPeopleClass];
     
 //    [self fetchPropertyAttributeType];
    
@@ -76,18 +74,19 @@
      0
      */
     
-    ///为BasePeople 类添加属性
-    NSString *proName = @"pageString";
+  
     // 分配（一组）类，让父类与类相关联
     if (!BasePeople) {
          BasePeople = objc_allocateClassPair([NSObject class], "BasePeople", 0);
     }
     
-    class_addIvar(BasePeople, [proName cStringUsingEncoding:NSUTF8StringEncoding], sizeof(NSString *), log2(sizeof(NSString *)), @encode(NSString *));
+  
 
     ///注册类
     objc_registerClassPair(BasePeople);
-    
+    ///为BasePeople 类添加属性
+    NSString *proName = @"pageString";
+    class_addIvar(BasePeople, [proName cStringUsingEncoding:NSUTF8StringEncoding], sizeof(NSString *), log2(sizeof(NSString *)), @encode(NSString *));
 
     objc_property_attribute_t ownerShip0 = {"T","@\"NSString\""};
     objc_property_attribute_t ownerShip1 = {"N",""};
