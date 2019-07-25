@@ -14,6 +14,26 @@
  */
 @implementation People
 
+- (void)setValue:(id)value forUndefinedKey:(NSString *)key{
+    
+}
+
++ (BOOL)accessInstanceVariablesDirectly{
+    return YES;
+}
+
+- (void)setMyAge{
+    
+}
+
+
+
+
+
+
+
+
+
 /**
  每个OC方法内部都他有这两个隐式参数
  objc ：调用者对象

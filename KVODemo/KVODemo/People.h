@@ -11,7 +11,11 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface People : NSObject
+{
+    NSString *myAge;
+}
 @property (nonatomic,strong)NSString *namea;
+
 
 - (void)instanceEat;
 @end

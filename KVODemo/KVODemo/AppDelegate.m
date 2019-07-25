@@ -16,15 +16,15 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-
-    _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    _window.backgroundColor = [UIColor whiteColor];
-    RunTimeController *run = [[RunTimeController alloc] init];
-    
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:run];
-    _window.rootViewController = nav;
-    
-    [_window makeKeyAndVisible];
+//
+//    _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+//    _window.backgroundColor = [UIColor whiteColor];
+//    RunTimeController *run = [[RunTimeController alloc] init];
+//    
+//    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:run];
+//    _window.rootViewController = nav;
+//    
+//    [_window makeKeyAndVisible];
 
     return YES;
 }

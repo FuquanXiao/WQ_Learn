@@ -23,8 +23,6 @@
       [self createPeopleClass];
     
 //    [self fetchPropertyAttributeType];
-   
-    
     
 //    [self createdBasePeopeleClass];
     
@@ -59,7 +57,6 @@
      */
 }
 
-
 - (void)createdBasePeopeleClass{
     
      ///创建一个类名为BasePeople 的类
@@ -80,8 +77,6 @@
          BasePeople = objc_allocateClassPair([NSObject class], "BasePeople", 0);
     }
     
-  
-
     ///注册类
     objc_registerClassPair(BasePeople);
     ///为BasePeople 类添加属性
@@ -94,8 +89,6 @@
     objc_property_attribute_t ownerShip3 = {"V",[proName cStringUsingEncoding:NSUTF8StringEncoding]};
 
     objc_property_attribute_t attr[] = {ownerShip0,ownerShip1,ownerShip2,ownerShip3};
-    
-
     
     if (class_addProperty(BasePeople, [proName cStringUsingEncoding:NSUTF8StringEncoding], attr, 4)) {
         /**
@@ -133,17 +126,7 @@ void setAAAAA(id objc,SEL sel,NSString *newData){
 
     Ivar ivar = class_getInstanceVariable([objc class], [key cStringUsingEncoding:NSUTF8StringEncoding]);
     object_setIvar(objc, ivar, newData);
-    
-
 }
-
-
-
-
-
-
-
-
 
 - (void)createPeopleClass{
     //定义一个 Person 类, 继承自 NSObject
@@ -157,9 +140,6 @@ void setAAAAA(id objc,SEL sel,NSString *newData){
     //注册该类
     objc_registerClassPair(People);
     
-    
-
-    
     //添加属性
     objc_property_attribute_t type = { "T", "@\"NSString\"" };
     objc_property_attribute_t attribute2 = {"N",""};//value无意义时通常设置为空
@@ -167,25 +147,19 @@ void setAAAAA(id objc,SEL sel,NSString *newData){
     objc_property_attribute_t ownership = { "C", "" }; // C = copy
     objc_property_attribute_t backingivar  = { "V", [proName cStringUsingEncoding:NSUTF8StringEncoding] };
     objc_property_attribute_t attrs[] = { type,attribute2,ownership, backingivar };
-   
-    
-    
+
     if (class_addProperty(People, [proName cStringUsingEncoding:NSUTF8StringEncoding], attrs, 4)) {
         NSString *s = [NSString stringWithFormat:@"set%@:",[proName capitalizedString]];
         //添加get和set方法
         class_addMethod([People class], NSSelectorFromString(@"AAAAA"), (IMP)AAAAA, "@@:");
         class_addMethod([People class], NSSelectorFromString(@"setAAAAA"), (IMP)setAAAAA, "v@:@");
     }
-    
-   
-    
+
     //获取实例
     id instance = [[People alloc] init];
     [instance setValue:@"中国人民真争气" forKey:@"name111"];
     NSLog(@"%@", [instance valueForKey:@"name111"]);
-    
-    
-    
+ 
 }
 
 id AAAA(id objc,SEL sel){

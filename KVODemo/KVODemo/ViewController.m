@@ -29,6 +29,13 @@
     [super viewDidLoad];
     
     self.people1 = [[People alloc] init];
+    
+    [self.people1 setValue:@"120" forKey:@"myAge"];
+    
+    return;
+    
+    
+    
     self.people2 = [[People alloc] init];
 
     [self.people1 addObserver:self forKeyPath:@"namea" options:NSKeyValueObservingOptionNew context:nil];
